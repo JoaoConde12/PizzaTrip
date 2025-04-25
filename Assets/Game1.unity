@@ -156,7 +156,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edb3a044cd5ccdc47866efe938173466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 4.06
+  velocidad: 6
+  fuerzaSalto: 8
+  longitudRaycast: 1.07
+  capaSuelo:
+    serializedVersion: 2
+    m_Bits: 8
+  enSuelo: 0
   animator: {fileID: 95185230}
 --- !u!61 &95185225
 BoxCollider2D:
@@ -377,7 +383,7 @@ GameObject:
   - component: {fileID: 524049666}
   - component: {fileID: 524049665}
   - component: {fileID: 524049664}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
