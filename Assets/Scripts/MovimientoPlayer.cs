@@ -9,10 +9,10 @@ public class MovimientoPlayer : MonoBehaviour
     public float fuerzaSalto = 8f;
     public float longitudRaycast = 0.05f;
     public LayerMask capaSuelo;
+    public Animator animator;
     public bool enSuelo;
     private Rigidbody2D rb;
 
-    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
